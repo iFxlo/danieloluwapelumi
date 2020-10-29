@@ -11,7 +11,7 @@
                     "Subject: $subject\n".
                     "Message: $message\n";
 
-                    $to="42001d25dbcb0a47076b@cloudmailin.net";
+                    $to="pelumidd@gmail.com";
                     $headers = "From: $email_from \r\n";
                     $headers = "Reply-To: $email \r\n";
                     mail($to,$email_subject,$email_body,$headers);
