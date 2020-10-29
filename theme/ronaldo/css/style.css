@@ -393,8 +393,10 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; }
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -882,7 +884,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
-    max-width: 25%; }
+    max-width: 25%;
+    }
   .col-md-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
@@ -9061,11 +9064,11 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 1em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 3em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
